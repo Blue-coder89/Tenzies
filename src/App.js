@@ -3,9 +3,9 @@ import React from "react";
 function App() {
   return (
     <div className="App">
-      <div className="container border border-dark">
+      <div className="container border border-dark border-1">
         <div variant = "primary">This is a Button</div>
-<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" className="btn btn-primary">Primary</button>
       </div>
     </div>
   );
