@@ -1,0 +1,35 @@
+@import "./main.scss";
+
+
+.grid-container {
+    position: relative;
+}
+.dice {
+    @include make-container();
+  height: 70.09%;
+  width: 57.87%;
+  padding-left: 0;
+  padding-right: 0;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #F5F5F5;
+  >h2{
+      font-size: 40px;
+      position: absolute;
+      margin: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+}
+
+.dice-border{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 3.81277px;
+}
+
+
+
