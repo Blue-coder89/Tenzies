@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Main from "./Components/js/main"
 function App() {
   return (
     <div className="App">
-      <div className="container border border-dark rounded">
-
-      </div>
+     <Main/>
     </div>
   );
 }
