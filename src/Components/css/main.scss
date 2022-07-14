@@ -1,5 +1,5 @@
 @import "../../../node_modules/bootstrap/scss/mixins";
-@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap";
+// @import "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap";
 $grid-breakpoints: (
     xs: 0,
     sm: 700px,
@@ -85,7 +85,7 @@ $black:    #000 !default;
     );
     
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../../../node_modules/bootstrap/scss/utilities.scss";
+@import "../../../node_modules/bootstrap/scss/utilities";
 @import "../../../node_modules/bootstrap/scss/mixins/border-radius";
 
 
